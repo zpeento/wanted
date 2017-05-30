@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="main">
+    <view wx:for="{{article}}" wx:key="*this">
+        <view class="article-line">
+        <view class="avatar">
+            <image src="{{item.talker}}"></image>
+        </view>
+        <view class="text">
+            <text>{{item.text}}</text>
+        </view>
+        </view>
+    </view>
+  </view>
+  <view class="continue">
+    <button>继 续</button>
+  </view>
+</view>

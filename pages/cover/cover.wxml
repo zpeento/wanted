@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="container" style="background-image:url('../../images/pic.jpg')">
+  <view class="contant">
+    <view class="title-container">
+      <text class="title">{{title}}</text>
+      <view class="title-container-right">
+        <text class="author">{{author}}</text>
+        <text class="date">{{date}}</text>
+      </view>
+    </view>
+
+    <view class="intro">
+      <text>{{intro}}</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,49 @@
+/**cover.wxss**/
+
+.container{
+  height: 100vh;
+  background-size: cover;
+  display: column;
+  background-color: #eee;
+  box-sizing: border-box;
+  padding: 20rpx 20rpx 20rpx 20rpx;
+  font-family: 'Micorsoft Yahei';
+}
+
+image{
+    width:120rpx;
+    height: 120rpx;
+    background-size: cover;
+    border-radius: 5px;
+}
+.text{
+    display: flex;
+    align-items:center;
+}
+.text text{
+    background-color: #fff;
+    margin-left: 20rpx;
+    padding: 15rpx;
+    border-radius: 5px;
+    display: block;
+    font-family: 'Microsoft Yahei';
+    font-size: 14px;
+    color: #333;
+}
+
+.article-line{
+    display: flex;
+}
+
+button{
+    background-color: #fff;
+    font-family: 'Microsoft Yahei';
+    color: #333;
+}
+
+.main{
+    height: 88vh;
+}
+.continue{
+    height: 10vh;
+}

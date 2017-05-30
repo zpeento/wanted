@@ -1,0 +1,35 @@
+/**cover.wxss**/
+
+.container{
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction:column-reverse; 
+}
+
+.contant{
+  background-color: rgba(255,255,255,0.6);
+  box-sizing: border-box;
+  padding:20rpx 15rpx 20rpx 20rpx;
+  font-family: 'Microsoft Yahei';
+  color: #333;
+  font-size: 14px;
+}
+
+.intro{
+  text-indent: 2em;
+}
+
+.title{
+  font-size: 18px;
+}
+
+.author{
+  margin-right: 10px;
+}
+
+.title-container{
+  /*text-indent: 20rpx;*/
+  display: flex;
+  justify-content: space-between;
+}
