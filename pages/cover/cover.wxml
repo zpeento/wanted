@@ -1,5 +1,8 @@
 <!--index.wxml-->
-<view class="container" style="background-image:url('../../images/pic.jpg')">
+<view class="container" bindtap="bindViewTap">
+  <view class="background-image">
+    <image src="../../images/pic.jpg"></image>
+  </view>
   <view class="contant">
     <view class="title-container">
       <text class="title">{{title}}</text>
