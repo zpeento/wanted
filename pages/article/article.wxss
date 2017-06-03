@@ -9,7 +9,10 @@
   padding: 20rpx 20rpx 20rpx 20rpx;
   font-family: 'Micorsoft Yahei';
 }
-
+.main{
+    height: 88vh;
+    overflow: scroll;
+}
 image{
     width:120rpx;
     height: 120rpx;
@@ -33,16 +36,14 @@ image{
 
 .article-line{
     display: flex;
+    margin-bottom: 10rpx;
 }
 
 button{
     background-color: #fff;
     font-family: 'Microsoft Yahei';
     color: #333;
-}
-
-.main{
-    height: 88vh;
+    border: 0px;
 }
 .continue{
     height: 10vh;

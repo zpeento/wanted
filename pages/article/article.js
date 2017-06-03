@@ -11,6 +11,18 @@ Page({
         {
             talker:'../../images/dog2.jpg',
             text:'怎么啦嘿，你在吗？嘿，你在吗？嘿，你在吗？嘿，你在吗？嘿，你在吗？嘿，你在吗？'
+        },
+        {
+            talker:'../../images/dog.jpg',
+            text:'嘿，你在吗？'
+        },
+        {
+            talker:'../../images/dog2.jpg',
+            text:'怎么啦嘿，你在吗？嘿，你在吗？嘿，你在吗？嘿，你在吗？嘿，你在吗？嘿，你在吗？'
+        },
+        {
+            talker:'../../images/dog.jpg',
+            text:'嘿，你在吗？'
         }
     ]
   },
