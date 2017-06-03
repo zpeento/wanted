@@ -3,6 +3,7 @@
 var app = getApp()
 Page({
   data: {
+    back:'../../images/pic.jpg',
     title:'最想见到的那个她',
     author:'小丫',
     date:'2017-05-20',

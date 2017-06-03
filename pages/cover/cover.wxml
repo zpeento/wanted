@@ -1,7 +1,7 @@
-<!--index.wxml-->
+<!--cover.wxml-->
 <view class="container" bindtap="bindViewTap">
   <view class="background-image">
-    <image src="../../images/pic.jpg"></image>
+    <image mode="aspectFill" src="{{back}}"></image>
   </view>
   <view class="contant">
     <view class="title-container">

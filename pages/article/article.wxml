@@ -1,4 +1,4 @@
-<!--index.wxml-->
+<!--article.wxml-->
 <view class="container">
   <view class="main">
     <view wx:for="{{article}}" wx:key="*this">
